@@ -1,13 +1,31 @@
+hr{
+  color: rgb(255,140,0);
+  background-color: rgb(255,140,0);
+  border: none;
+  height: 1px;
+}
+
+
+h2{
+	font-family: 'Baloo Paaji 2', cursive; 
+	font-size: 30px;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+}
+
 
 @media all and (max-width: 500px){
+
 	body{
 		background-color: rgb(0,139,139);
 		overflow: auto;
 	}
 
+
 	h1{
 		font-family: 'Baloo Paaji 2', cursive; 
-		font-size: 36px;
+		font-size: 40px;
 		text-align: center;
 		font-style: italic;
 		text-decoration-color: white;
@@ -15,30 +33,32 @@
 	}
 
 	.nav a {
-	  float: left;
 	  color: #f2f2f2;
-	  text-align: center;
-	  padding: 5px 5px;
+	  padding: 3px 3px;
 	  text-decoration: none;
-	  font-size: 10px;
+	  font-size: 20px;
 	}
 	.nav {
  		background-color: rgb(255,140,0);
   		overflow: hidden;
+  		text-align: center;
+  		height: 25px;
 	}
 	#summary{
 		width: 100%;
 		font-family: 'Baloo Paaji 2', cursive; 
 		font-size:15px;
+		height: auto;
 	}
 
 	.circle{
 		border:2px solid rgb(255,140,0);
 		border-radius: 50%;
-		width: 250px;
+		width: 230px;
 		align-items: center;
-		height: 250px;
-		margin:30px;
+		height: 230px;
+		margin: auto;
+		margin-top: 30px; 
 	}
 
 }
